@@ -5,3 +5,14 @@ langchain
 PyPDF2
 faiss-cpu
 langchain_google_genai
+streamlit
+python-dotenv
+PyPDF2
+openai
+langchain
+faiss-cpu
+tiktoken
+pandas
+numpy
+requests
+
