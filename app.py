@@ -76,8 +76,8 @@ def user_input(user_question):
 
 
 def main():
-    st.set_page_config("Multi PDF Chatbot", page_icon = ":scroll:")
-    st.header("Multi-PDF's 📚 - Chat Agent 🤖 ")
+    st.set_page_config("DocuChat AI", page_icon = ":scroll:")
+    st.header("📚 DocuChat Bot 🤖 ")
 
     user_question = st.text_input("Ask a Question from the PDF Files uploaded .. ✍️📝")
 
@@ -86,7 +86,7 @@ def main():
 
     with st.sidebar:
 
-        st.image("img/Robot.jpg")
+        st.image("img/chatbot.png")
         st.write("---")
         
         st.title("📁 PDF File's Section")
@@ -99,7 +99,7 @@ def main():
                 st.success("Done")
         
         st.write("---")
-        st.image("img/gkj.jpg")
+        
         
 
 
